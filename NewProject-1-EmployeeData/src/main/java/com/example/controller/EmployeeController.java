@@ -56,5 +56,9 @@ public class EmployeeController {
 		model.addAttribute("employeeList1",employeeList);
 		return "allRecord";
 	}
+	
+	public String getUpdaedRecord() {
+		return "home";
+	}
 
 }
