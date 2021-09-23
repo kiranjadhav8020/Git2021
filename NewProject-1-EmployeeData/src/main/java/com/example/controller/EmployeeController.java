@@ -58,6 +58,7 @@ public class EmployeeController {
 	}
 	
 	public String getUpdaedRecord() {
+		System.out.println("kiran");
 		return "home";
 	}
 
